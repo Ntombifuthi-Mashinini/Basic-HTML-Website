@@ -1,22 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Website</title>
-</head>
-<body>
-    <nav class="nav-center">
-        <ul class="nav-links">
-            <div class="logo"><img src="Images/nms-logo.jpeg" alt="logo" width="80px"></div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="https://www.placeholder.com/Articles">Articles</a></li>
-            <li><a href="https://www.placeholder.com/contacts">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Articles - Basic HTML Website | Ntombi Mash</title>
+  <meta name="description" content="Learn how to structure a website using HTML with this beginner-friendly project. Focus on building sections like headers, footers, navigation, main content, and sidebars. Perfect for mastering HTML basics before diving into CSS styling in future projects.">
+  <meta name="keywords" content="HTML basics, Website structure, HTML tutorial, Header and footer, Navigation bar, Sidebar layout, Main content sections, Building websites with HTML, Beginner web development, HTML project for beginners">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ntombi Mash">
 
-    </main>
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Learn HTML Website Structure | Beginner Project - Ntombi Mash">
+  <meta property="og:description" content="Master the basics of structuring a website using HTML. Build sections like headers, footers, navigation, main content, and sidebars without focusing on styling.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ntombimash.com/articles.html">
+  <meta property="og:image" content="https://ntombimash.com/images/nms-logo.jpeg">
+
+  <link rel="canonical" href="https://ntombimash.com/articles.html">
+</head>
+
+<body>
+
+  <nav class="nav-center">
+    <div class="logo">
+      <img src="Images/nms-logo.jpeg" alt="Ntombi Mash Logo" width="80">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h1>Welcome to My HTML Website</h1>
+      <p>This is a basic HTML website with multiple pages including Home, Projects, Articles, and Contact.</p>
+      <article class="info">
+        <h2>About This Website</h2>
+        <p>This website is created to demonstrate the structure of a multi-page HTML website with navigation links.</p>
+      </article>
+    </section>
+
+    <aside>
+      <section class="sidebar">
+        <h2>HTML-Only Projects</h2>
+        <ul class="project-links">
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="quiz-app.html">Quiz App</a></li>
+          <li><a href="countdown-timer.html">Countdown Timer</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <div>
+        <h3>roadmap.sh</h3>
+        <p>Solved all the frontend projects.</p>
+        <a href="#">Visit my Profile</a>
+      </div>
+      <div>
+        <h3>OpenSource Work</h3>
+        <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
+        <a href="#">Visit my GitHub Profile</a>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+      <h3>Courses I took:</h3>
+      <ul>
+        <li>Object Oriented Programming</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Web Engineering</li>
+        <li>Artificial Intelligence</li>
+        <li>Human Computer Interaction</li>
+        <li>Computer Graphics</li>
+        <li>Database Management Systems</li>
+        <li>Distributed Database Systems</li>
+        <li>Discrete Mathematics</li>
+      </ul>
+    </section>
+
+    <section id="reviews">
+      <h2>Reviews from my Teachers</h2>
+      <div class="reviews-container">
+        <blockquote class="review">
+          <p>Ntombi Mash consistently delivered outstanding assignments and showed great initiative.</p>
+          <footer> *Jane Doe, Assistant Professor</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>Her work ethic and creativity stood out in every project she completed.</p>
+          <footer> *John Smith, Lecturer</footer>
+        </blockquote>
+        <blockquote class="review">
+          <p>Ntombi demonstrated excellent problem-solving skills and leadership in group projects.</p>
+          <footer> *Mary Johnson, Senior Lecturer</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="closing">
+    <p>&copy; 2024 Ntombi Mash. All rights reserved.</p>
+  </footer>
 </body>
 </html>
