@@ -3,31 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- SEO Meta Tags -->
+
+  <!-- Primary SEO -->
   <title>Articles - Basic HTML Website | Ntombi Mash</title>
-  <meta name="description" content="Learn how to structure a website using HTML with this beginner-friendly project. Focus on building sections like headers, footers, navigation, main content, and sidebars. Perfect for mastering HTML basics before diving into CSS styling in future projects.">
-  <meta name="keywords" content="HTML basics, Website structure, HTML tutorial, Header and footer, Navigation bar, Sidebar layout, Main content sections, Building websites with HTML, Beginner web development, HTML project for beginners">
+  <meta name="description" content="A beginner-friendly HTML project demonstrating how to structure a multi-page website using semantic HTML elements only.">
+  <meta name="keywords" content="HTML basics, semantic HTML, website structure, beginner web development, HTML project">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Ntombi Mash">
 
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="Learn HTML Website Structure | Beginner Project - Ntombi Mash">
-  <meta property="og:description" content="Master the basics of structuring a website using HTML. Build sections like headers, footers, navigation, main content, and sidebars without focusing on styling.">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://ntombimash.com/articles.html">
-  <meta property="og:image" content="https://ntombimash.com/images/nms-logo.jpeg">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://ntombifuthi-mashinini.github.io/Basic-HTML-Website/articles.html">
 
-  <link rel="canonical" href="https://ntombimash.com/articles.html">
+  <!-- Open Graph (safe + consistent) -->
+  <meta property="og:title" content="HTML Website Structure | Ntombi Mash">
+  <meta property="og:description" content="Learn how to structure a real-world website using semantic HTML. No CSS or JavaScript included.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ntombifuthi-mashinini.github.io/Basic-HTML-Website/articles.html">
+  <meta property="og:image" content="https://ntombifuthi-mashinini.github.io/Basic-HTML-Website/Images/nms-logo.jpeg">
 </head>
 
 <body>
 
-  <nav class="nav-center">
+  <!-- Navigation -->
+  <nav>
     <div class="logo">
       <img src="Images/nms-logo.jpeg" alt="Ntombi Mash Logo" width="80">
     </div>
-    <ul class="nav-links">
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
       <li><a href="articles.html">Articles</a></li>
@@ -35,83 +37,74 @@
     </ul>
   </nav>
 
+  <!-- Main Content -->
   <main>
+
     <section>
-      <h1>Welcome to My HTML Website</h1>
-      <p>This is a basic HTML website with multiple pages including Home, Projects, Articles, and Contact.</p>
-      <article class="info">
-        <h2>About This Website</h2>
-        <p>This website is created to demonstrate the structure of a multi-page HTML website with navigation links.</p>
-      </article>
+      <h1>Articles</h1>
+      <p>
+        This page explains how a basic multi-page website can be structured using
+        semantic HTML elements only.
+      </p>
     </section>
 
+    <article>
+      <h2>Understanding HTML Website Structure</h2>
+      <p>
+        This project focuses on building a website using HTML without styling or
+        interactivity. The goal is to understand how real websites are structured
+        before introducing CSS or JavaScript.
+      </p>
+
+      <p>
+        Semantic elements such as <strong>nav</strong>, <strong>main</strong>,
+        <strong>section</strong>, <strong>article</strong>, <strong>aside</strong>,
+        and <strong>footer</strong> are used to create meaningful and accessible
+        page layouts.
+      </p>
+    </article>
+
     <aside>
-      <section class="sidebar">
-        <h2>HTML-Only Projects</h2>
-        <ul class="project-links">
-          <li><a href="calculator.html">Calculator</a></li>
-          <li><a href="quiz-app.html">Quiz App</a></li>
-          <li><a href="countdown-timer.html">Countdown Timer</a></li>
+      <section>
+        <h2>HTML-Only Practice Projects</h2>
+        <ul>
+          <li>Calculator (structure only)</li>
+          <li>Quiz App (HTML layout)</li>
+          <li>Countdown Timer (page structure)</li>
         </ul>
       </section>
     </aside>
 
-    <section class="experience">
-      <h2>Work Experience</h2>
-      <div>
-        <h3>roadmap.sh</h3>
-        <p>Solved all the frontend projects.</p>
-        <a href="#">Visit my Profile</a>
-      </div>
-      <div>
-        <h3>OpenSource Work</h3>
-        <p>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
-        <a href="#">Visit my GitHub Profile</a>
-      </div>
-    </section>
-
-    <section class="education">
-      <h2>Education</h2>
-      <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-      <h3>Courses I took:</h3>
+    <section>
+      <h2>Learning Outcomes</h2>
       <ul>
-        <li>Object Oriented Programming</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Web Engineering</li>
-        <li>Artificial Intelligence</li>
-        <li>Human Computer Interaction</li>
-        <li>Computer Graphics</li>
-        <li>Database Management Systems</li>
-        <li>Distributed Database Systems</li>
-        <li>Discrete Mathematics</li>
+        <li>Proper use of semantic HTML elements</li>
+        <li>Multi-page navigation using relative links</li>
+        <li>SEO fundamentals such as meta tags and canonical URLs</li>
+        <li>Accessibility through clean structure and headings</li>
       </ul>
     </section>
 
-    <section id="reviews">
-      <h2>Reviews from my Teachers</h2>
-      <div class="reviews-container">
-        <blockquote class="review">
-          <p>Ntombi Mash consistently delivered outstanding assignments and showed great initiative.</p>
-          <footer> *Jane Doe, Assistant Professor</footer>
-        </blockquote>
-        <blockquote class="review">
-          <p>Her work ethic and creativity stood out in every project she completed.</p>
-          <footer> *John Smith, Lecturer</footer>
-        </blockquote>
-        <blockquote class="review">
-          <p>Ntombi demonstrated excellent problem-solving skills and leadership in group projects.</p>
-          <footer> *Mary Johnson, Senior Lecturer</footer>
-        </blockquote>
-      </div>
+    <section>
+      <h2>Education & Practice</h2>
+      <p>
+        This website was built as part of my learning journey in frontend
+        development, focusing on strong foundations before styling and scripting.
+      </p>
     </section>
-  </main>
-  <p>
-  This is a personal portfolio and learning project.
-  It does not collect passwords, financial information, or personal data.
-</p>
 
-  <footer class="closing">
+    <!-- Safety disclaimer -->
+    <p>
+      This is a personal portfolio and learning project.
+      It does not collect passwords, financial information, or personal data.
+    </p>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
     <p>&copy; 2024 Ntombi Mash. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
