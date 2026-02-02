@@ -1,0 +1,54 @@
+# Basic HTML Website (roadmap.sh Project)
+
+This project follows the **roadmap.sh frontend project guidelines** and focuses on building a **multi-page website using HTML only**.
+
+The goal is to understand **website structure, navigation, and semantics** before adding CSS or JavaScript.
+
+---
+
+## ✅ Project Requirements Covered
+
+- Multiple HTML pages
+- Navigation between pages
+- Semantic HTML elements
+- Clear content hierarchy
+- SEO meta tags
+- Accessibility considerations
+
+---
+
+## 📄 Pages
+
+- Home
+- Projects
+- Articles
+- Contact
+
+All pages are linked through a navigation menu.
+
+---
+
+## 🧠 Key Learnings
+
+- Structuring real-world HTML documents
+- Using semantic elements correctly
+- Understanding how HTML impacts SEO and accessibility
+- Preparing a project for future styling and scripting
+
+---
+
+## 🛠 Technologies
+
+- HTML5 only
+
+---
+
+## 🔗 Live Preview
+
+(Add deployment link here)
+
+---
+
+## 👩🏽‍💻 Author
+
+Ntombi Mash
